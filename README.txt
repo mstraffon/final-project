@@ -1,1 +1,1 @@
-"I am in my group" 
+Jessica Shaffer, Erin Berridge, Megan Straffon, Briley Winge, Claire Baker
