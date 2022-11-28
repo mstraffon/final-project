@@ -22,7 +22,7 @@ def popdance():
 
     sb.regplot(x, y, ci=None, color = 'black')
 
-    plt.scatter(x, y, color = 'tab:green')
+    plt.scatter(x, y, color = 'mediumseagreen')
 
     plt.xlabel('Danceability', fontsize=20, labelpad=10)
     plt.ylabel('Popularity', fontsize=20, labelpad = 10)
