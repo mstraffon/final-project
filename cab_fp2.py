@@ -19,5 +19,5 @@ y = df['lead_streams']
 print(y)
 plt.ylabel('Streams', fontsize=15).set_color('black')
 plt.title(label='Top Five Spotify Artists Lead Streams')
-plt.bar(x,y.head(), color='orchid', edgecolor='darkmagenta')
+plt.bar(x,y.head(), color='mediumseagreen', edgecolor='darkgreen')
 plt.show()
