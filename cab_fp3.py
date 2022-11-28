@@ -19,7 +19,7 @@ y_pos = np.arange(len(bars))
 plt.bar(y_pos, height, color='mediumseagreen', edgecolor='darkgreen')
 plt.xticks(y_pos, bars)
 plt.xlabel("Song Title", fontsize = 16)
-plt.ylabel("Danceability", fontsize = 14)
+plt.ylabel("Danceability (Scale of 0-1)", fontsize = 14)
 plt.title("Five Songs and Their Danceability" ,y=1,fontsize=16,fontweight='bold')
 
 plt.show()
