@@ -22,7 +22,7 @@ def danceval():
 
     sb.regplot(x, y, ci=None, color = 'black')
 
-    plt.scatter(x, y, color = 'tab:green')
+    plt.scatter(x, y, color = 'mediumseagreen')
 
     plt.ylabel('Danceability', fontsize=20, labelpad=10)
     plt.xlabel('Valence', fontsize=20, labelpad = 10)
