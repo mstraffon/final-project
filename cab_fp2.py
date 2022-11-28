@@ -17,7 +17,7 @@ for row in range(1,6):
 x = ['Drake', 'Bad Bunny', 'Ed Sheeran', 'The Weeknd', 'Taylor Swift']
 y = df['lead_streams']
 print(y)
-plt.ylabel('Streams', fontsize=15).set_color('black')
+plt.ylabel('Streams (Billions)', fontsize=15).set_color('black')
 plt.title(label='Top Five Spotify Artists Lead Streams')
 plt.bar(x,y.head(), color='mediumseagreen', edgecolor='darkgreen')
 plt.show()
