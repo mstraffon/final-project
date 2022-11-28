@@ -7,7 +7,7 @@ df = pd.read_csv('spotify_top50_2021.csv', usecols=[0,5])
 
 # Plotting
 plt.figure('Image 3')
-plt.hist(df['danceability'], bins=10, edgecolor='black')
+plt.hist(df['danceability'], bins=10, edgecolor='black', color="darkgreen")
 
 plt.title("Danceability of the Top 50 Streamed Songs (2021)", fontsize=16)
 plt.xlabel('Danceability Score', fontsize=13)

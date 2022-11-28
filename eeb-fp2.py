@@ -16,8 +16,8 @@ print("R squared:" , results.rsquared)
 
 # Plotting
 plt.figure('Image 2')
-plt.plot('valence', 'loudness', data=df, linestyle='none', marker='o')
-plt.plot(xs, m*xs + b, lw=3)
+plt.plot('valence', 'loudness', data=df, linestyle='none', marker='o', color="darkgreen")
+plt.plot(xs, m*xs + b, lw=3, color="mediumseagreen")
 plt.title("Valence vs. Loudness (Top 50 Songs 2021)", fontsize=18)
 plt.xlabel('Valence (1 = more positive mood)', fontsize=14)
 plt.ylabel('Loudness (higher value = louder)', fontsize=14)
