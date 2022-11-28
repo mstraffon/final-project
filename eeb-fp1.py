@@ -12,11 +12,11 @@ y_pos = np.arange(6)
 
 # Plotting
 plt.figure('Image 1', figsize=(10,5))
-plt.bar(y_pos, top_6_num_hits.values, color="darkgreen")
+plt.bar(y_pos, top_6_num_hits.values, color="mediumseagreen")
 plt.xticks(y_pos, top_6_num_hits.index, fontsize=14)
 plt.yticks(np.arange(5))
 
-plt.title("Artists with the Most Songs in the Top 50 (2021)", fontsize=14)
+plt.title("Artists with the Most Songs in the Top 50 (2021)", fontsize=17)
 plt.xlabel('Artist', fontsize=13)
-plt.ylabel('# of songs in Top 50 Streamed Songs')
+plt.ylabel('# of songs in Top 50 Streamed Songs', fontsize=13)
 plt.show()
