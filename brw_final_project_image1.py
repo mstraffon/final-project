@@ -58,10 +58,10 @@ artist = artist.reset_index(drop=True)
 x = artist['one_billion']
 y = artist['tracks']
 
-sns.regplot(x=artist['one_billion'], y=artist['tracks'], scatter_kws={"color": "darkorange"}, line_kws={"color": "dodgerblue"})
+sns.regplot(x=artist['one_billion'], y=artist['tracks'], scatter_kws={"color": "mediumseagreen"}, line_kws={"color": "darkgreen"})
 plt.xlabel("Number of Tracks That Reached One Billion", fontsize = 16)
 plt.ylabel("Number of Tracks Artist Has Released", fontsize = 14)
-plt.title("Number of One Billion Records Dependent on Number of Tracks",y=1,fontsize=16,color = 'darkorange',fontweight='bold')
+plt.title("Number of One Billion Records Dependent on Number of Tracks",y=1,fontsize=16,color = 'mediumseagreen',fontweight='bold')
 plt.gca().spines['top'].set_visible(False)
 plt.gca().spines['right'].set_visible(False)
 plt.show()
