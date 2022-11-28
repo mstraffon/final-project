@@ -21,7 +21,7 @@ def frequency():
     ax = s.plot.bar()
     ax2 = ax.twinx()
     s2 = s / sum(s)
-    s2.plot.bar(ax=ax2, color='tab:green')
+    s2.plot.bar(ax=ax2, color='mediumseagreen')
 
     ax2.set_ylabel('Estimated Probability', fontsize=18, labelpad = 20)
     ax.set_ylabel('Frequency', fontsize=18, labelpad = 20)
