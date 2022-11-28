@@ -16,7 +16,7 @@ print(bars)
 
 plt.figure(figsize=(10,8))
 y_pos = np.arange(len(bars))
-plt.bar(y_pos, height, color='orchid', edgecolor='darkmagenta')
+plt.bar(y_pos, height, color='mediumseagreen', edgecolor='darkgreen')
 plt.xticks(y_pos, bars)
 plt.xlabel("Song Title", fontsize = 16)
 plt.ylabel("Danceability", fontsize = 14)
