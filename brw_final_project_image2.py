@@ -73,7 +73,7 @@ plt.xticks(y_pos, bars)
 
 plt.gca().set_xticks(plt.gca().get_xticks()[::4])
 plt.xlabel("Artist Name", fontsize = 14)
-plt.ylabel("Number of Tracks That Reached One Million Streams", fontsize = 10)
+plt.ylabel("Number of Tracks That Reached 100 Million Streams", fontsize = 10)
 plt.title("Number of One Million Tracks Per Each Artist/Band",y=1,fontsize=12,color = 'mediumseagreen', fontweight='bold')
 plt.gca().spines['top'].set_visible(False)
 plt.gca().spines['right'].set_visible(False)
